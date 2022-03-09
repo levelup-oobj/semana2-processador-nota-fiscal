@@ -25,7 +25,15 @@ public class SubTotalPorClasseFiscal implements Iterable<SubTotalPorClasseFiscal
     }
   }
 
-  private Map<String, BigDecimal> map = new TreeMap<>();
+  private Map<String, BigDecimal> map;
+
+  public SubTotalPorClasseFiscal() {
+    map = new TreeMap<>();
+  }
+
+  public SubTotalPorClasseFiscal(Map<String, BigDecimal> map) {
+    this.map = map;
+  }
 
   public void adicionaItemPedido(ItemPedido itemPedido) {
     String classeFiscal = itemPedido.getClasseFiscal();

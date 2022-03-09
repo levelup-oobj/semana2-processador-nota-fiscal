@@ -9,7 +9,7 @@ import java.io.Reader;
 public class LeitorFonteDadosXML implements LeitorFonteDados {
 
   @Override
-  public Pedido processa(String nomeArquivo) {
+  public Pedido recupera(String nomeArquivo) {
     try {
       Reader reader = new FileReader(nomeArquivo);
       XmlMapper mapper = new XmlMapper();
