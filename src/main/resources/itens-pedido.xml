@@ -1,0 +1,46 @@
+<pedido>
+    <itens>
+        <item>
+            <codigo>4</codigo>
+            <descricao>Gyoza Bovino</descricao>
+            <quantidade>3</quantidade>
+            <valorUnitario>23.5</valorUnitario>
+            <classeFiscal>2106.90.90</classeFiscal>
+        </item>
+        <item>
+            <codigo>6</codigo>
+            <descricao>Rolinho Primavera</descricao>
+            <quantidade>2</quantidade>
+            <valorUnitario>9.9</valorUnitario>
+            <classeFiscal>2106.90.90</classeFiscal>
+        </item>
+        <item>
+            <codigo>7</codigo>
+            <descricao>Yakimeshi</descricao>
+            <quantidade>1</quantidade>
+            <valorUnitario>21.9</valorUnitario>
+            <classeFiscal>2106.90.90</classeFiscal>
+        </item>
+        <item>
+            <codigo>9</codigo>
+            <descricao>Coca-Cola Lata 310 ML</descricao>
+            <quantidade>1</quantidade>
+            <valorUnitario>5.9</valorUnitario>
+            <classeFiscal>2202.10.00</classeFiscal>
+        </item>
+        <item>
+            <codigo>10</codigo>
+            <descricao>Coca-Cola Zero Lata 310 ML</descricao>
+            <quantidade>1</quantidade>
+            <valorUnitario>5.9</valorUnitario>
+            <classeFiscal>2202.10.00</classeFiscal>
+        </item>
+        <item>
+            <codigo>12</codigo>
+            <descricao>Cerveja Heineken Lata 350 ML</descricao>
+            <quantidade>1</quantidade>
+            <valorUnitario>6.5</valorUnitario>
+            <classeFiscal>2203.00.00</classeFiscal>
+        </item>
+    </itens>
+</pedido>
